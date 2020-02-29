@@ -12,6 +12,7 @@ class Builder
 	 * @var array
 	 */
 	protected $items;
+	protected $groupStack = [];
 
 	/**
 	 * @var Collective\Html\HtmlBuilder
